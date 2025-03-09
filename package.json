@@ -19,7 +19,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --passWithNoTests",  // Allow tests to pass even if none are found
+    "test": "react-scripts test --passWithNoTests",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -30,7 +30,7 @@
   },
   "jest": {
     "testMatch": [
-      "**/src/**/*.{test,spec}.{js,jsx,ts,tsx}"  // Ensure it matches the correct test file pattern
+      "**/src/**/*.{test,spec}.{js,jsx,ts,tsx}"
     ]
   },
   "browserslist": {
